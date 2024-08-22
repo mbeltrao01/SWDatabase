@@ -1,0 +1,95 @@
+body {
+    font-family: 'Star Wars', Arial, sans-serif; 
+    background-color: #000000; 
+    color: #f8f8f8; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 400px; 
+    height: auto; 
+}
+
+
+.buscar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buscar input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #f8f8f8; 
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #333333; 
+    color: #f8f8f8; 
+}
+
+.buscar input[type="button"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #f8f8f8;
+    border-radius: 5px;
+    background-color: #ffcc00; 
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buscar input[type="button"]:hover {
+    background-color: #ffaa00; 
+}
+
+.info-container {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); 
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00; 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Star+Jedi&display=swap');
+
+body {
+    font-family: 'Star Jedi', Arial, sans-serif; 
+}
+
+@media (max-width: 600px) {
+    .buscar input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .buscar input[type="button"] {
+        width: 100%;
+    }
+}
