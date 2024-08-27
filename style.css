@@ -40,7 +40,7 @@ body {
     border: 2px solid #f8f8f8;
     border-radius: 5px;
     margin-right: 10px;
-    width: calc(100% - 120px); /* Ajuste para incluir o botão */
+    width: calc(100% - 120px);
     box-sizing: border-box;
     background-color: #333333;
     color: #f8f8f8;
